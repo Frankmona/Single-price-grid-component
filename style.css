@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:  hsl(204, 43%, 93%);
+}
+
+.section1{
+    width: 600px;
+    height: 150px;
+    background-color: white;
+}
+
+h3{
+    color:hsl(179, 62%, 43%);
+}
+
+.p_sub_heading{
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    line-height: 3;
+}
+
+.p_content_section1{
+    font-size: 13px;
+    color: hsl(218, 22%, 67%);
+    
+}
+
+.in_section1{
+    font-family: 'karla';
+    padding: 18px;
+}
+
+.section2{
+    width: 300px;
+    height: 200px;
+    background-color: hsl(179, 63%, 39%);
+}
+h4{
+    color: white;
+}
+
+.p_dollar{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+sup{
+    color: hsl(198, 10%, 81%);
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.p_fullaccess{
+    color: hsl(200, 75%, 97%);
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    min-width: 28vh;
+    height: 36px;
+    color: white;
+    padding-bottom: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 3px;
+  }
