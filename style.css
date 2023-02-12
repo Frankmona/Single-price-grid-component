@@ -10,9 +10,11 @@ body{
 }
 
 .section1{
-    width: 600px;
+    width: 500px;
     height: 150px;
     background-color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 h3{
@@ -31,15 +33,16 @@ h3{
     
 }
 
-.in_section1{
+.in_section{
     font-family: 'karla';
-    padding: 18px;
+    padding: 30px;
 }
 
 .section2{
-    width: 300px;
+    width: 250px;
     height: 200px;
     background-color: hsl(179, 63%, 39%);
+    border-bottom-left-radius: 8px;
 }
 h4{
     color: white;
@@ -76,4 +79,35 @@ button {
     display: inline-block;
     font-size: 15px;
     border-radius: 3px;
-  }
+}
+
+.section3{
+    width: 250px;
+    height: 200px;
+    background-color: hsl(179, 60%, 58%);
+    border-bottom-right-radius: 8px;
+}
+
+.p_tutorial{
+    color: hsl(204, 43%, 93%);
+    font-size: small;
+    padding-top: 15px;
+    line-height: 1.1;
+}
+.row{
+    display: flex;
+}
+
+.container{
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+.central_container{
+    margin: auto;
+    padding-top: 130px;
+    padding-left: 100px;
+ 
+}
