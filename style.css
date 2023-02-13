@@ -111,3 +111,18 @@ button {
     padding-left: 100px;
  
 }
+
+@media screen and (max-width: 414px) {
+
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1, .section2, .section3{
+        width: 400px;
+        padding-bottom: 20px;
+       
+    }
+}
